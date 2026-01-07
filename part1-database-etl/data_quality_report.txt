@@ -1,0 +1,33 @@
+✔ customers_clean.csv created
+✔ products_clean.csv created
+✔ sales_clean.csv created
+
+Missing Values:
+customer_id          0
+first_name           0
+last_name            0
+email                0
+phone                0
+city                 0
+registration_date    5
+dtype: int64
+product_id        0
+product_name      0
+category          0
+price             0
+stock_quantity    0
+dtype: int64
+order_id             0
+transaction_id       0
+customer_id          0
+product_id           0
+quantity             0
+unit_price           0
+transaction_date    10
+status               0
+dtype: int64
+
+Duplicate Rows:
+customers: 0 duplicates
+products: 0 duplicates
+sales: 0 duplicates
