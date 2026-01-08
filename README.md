@@ -10,22 +10,32 @@
 
 This project implements a complete data architecture for FlexiMart, covering ETL pipelines, relational database design, NoSQL integration, and a star schema data warehouse. The goal is to build a robust environment for analytics, enabling business queries, customer segmentation, and product performance insights.
 
-## Repository Structure
+studentID-fleximart-data-architecture/
+├── README.md
+├── .gitignore
+├── data/
+│   ├── customers_raw.csv
+│   ├── products_raw.csv
+│   └── sales_raw.csv
 ├── part1-database-etl/
+│   ├── README.md
 │   ├── etl_pipeline.py
 │   ├── schema_documentation.md
 │   ├── business_queries.sql
-│   └── data_quality_report.txt
+│   ├── data_quality_report.txt
+│   └── requirements.txt
 ├── part2-nosql/
+│   ├── README.md
 │   ├── nosql_analysis.md
 │   ├── mongodb_operations.js
 │   └── products_catalog.json
-├── part3-datawarehouse/
-│   ├── star_schema_design.md
-│   ├── warehouse_schema.sql
-│   ├── warehouse_data.sql
-│   └── analytics_queries.sql
-└── README.md
+└── part3-datawarehouse/
+    ├── README.md
+    ├── star_schema_design.md
+    ├── warehouse_schema.sql
+    ├── warehouse_data.sql
+    └── analytics_queries.sql
+
 
 ## Technologies Used
 
