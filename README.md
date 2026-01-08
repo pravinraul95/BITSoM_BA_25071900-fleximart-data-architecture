@@ -26,6 +26,7 @@ This project implements a complete data architecture for FlexiMart, covering ETL
 │   ├── warehouse_data.sql
 │   └── analytics_queries.sql
 └── README.md
+
 ## Technologies Used
 
 - Python 3.14.2, pandas, mysql-connector-python
